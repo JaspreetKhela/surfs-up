@@ -1,23 +1,23 @@
 # Surf Shop Analysis
 
 ## Overview of the Analysis
-The purpose of this analysis was to determine whether or not the weather in June and December is ideal for operating a surf shop (which sells surf boards and ice cream) in Hawaii. Specifically, we wanted to determine the measures of central tendency and spread of temperatures by generating temperature summary statistics for each of the aforementioned months.
+The purpose of this analysis was to determine whether or not the weather in June and December is ideal for operating a surf shop (which sells surf boards and ice cream) in different locations within Hawaii. Specifically, we wanted to determine the measures of central tendency and spread of temperatures by generating temperature summary statistics for each of the aforementioned months.
 
 ## Results
-First, we can observe the summary statistics of the temperature from the months of June and December in the tables below.
+First, we can observe the temperature summary statistics of the temperature for June and December in the tables below.
 
 ### Summary Statistics
 _____
 
 <img width="150" alt="june_summary_statistics" src="https://user-images.githubusercontent.com/80941606/192936315-07b2c8a2-df6c-4018-bcc9-7f7060700b68.png">
 
-**Table 1**: Summary statistics for the month of June.
+**Table 1**: Temperature summary statistics for June.
 
 _____
 
 <img width="173" alt="december_summary_statistics" src="https://user-images.githubusercontent.com/80941606/192936339-1c452a8f-043b-4d2c-bd7a-5027fe13962a.png">
 
-**Table 2**: Summary statistics for the month of September.
+**Table 2**: Temperature summary statistics for September.
 
 _____
 
@@ -29,5 +29,29 @@ From the tables above, we can see that:
 * Given that June and December are roughly six months apart yet the measures of central tendency and spread between the two months are comparable, one could make the argument that the surf shop could remain open for the entire year.
 
 ## Summary
-Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
 
+### Take-Away
+In summary, the surf shop could stay open for the entire year given that the temperature fluctuations throughout the year are minimal; thus, it would not be an issue serving ice cream throughout the year.
+
+### Additional Queries
+The following database queries would allow us to extract additional insights that will allow us to make more informed decisions on the viability of surf shops based on their prospective locations and temperatures at those locations.
+
+_____
+
+
+**Figure 1**:
+
+_____
+
+Figure 1 illustrates a query for finding the location that we have the most temperature data on. As we can see, the "USC00519281" location has the most temperature measurements.
+
+_____
+
+
+**Figure 2**:
+
+_____
+
+Figure 2 illustrates a query that plots a temperature histogram for the location found in Figure 1. 
+
+We can see that the temperature at this location lingers mostly around seventy-five degrees fahrenheit for most of the year. This temperature is ideal for selling ice cream. Thus, we can recommend opening the surf shop in this and nearby locations.
