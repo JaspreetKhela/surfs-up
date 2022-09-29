@@ -1,6 +1,8 @@
 # Surf Shop Analysis
 
 ## Overview of the Analysis
+
+### Purpose
 The purpose of this analysis was to determine whether or not the weather in June and December is ideal for operating a surf shop (which sells surf boards and ice cream) in different locations within Hawaii. Specifically, we wanted to determine the measures of central tendency and spread of temperatures by generating temperature summary statistics for each of the aforementioned months.
 
 ## Results
