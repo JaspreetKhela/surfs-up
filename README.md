@@ -5,6 +5,8 @@ The purpose of this analysis was to determine whether or not the weather in June
 
 ## Results
 First, we can observe the summary statistics of the temperature from the months of June and December in the tables below.
+
+### Summary Statistics
 _____
 
 <img width="150" alt="june_summary_statistics" src="https://user-images.githubusercontent.com/80941606/192936315-07b2c8a2-df6c-4018-bcc9-7f7060700b68.png">
@@ -19,6 +21,8 @@ _____
 
 _____
 
+### Insights
+
 From the tables above, we can see that:
 * The historical minimum temperature in June is eight degrees fahrenheit greater than that of December (which has a minimum temperature of fifty-six degrees fahrenheit). Assuming that prospective patrons would only consider purchasing ice cream if the local temperature was greater than sixty degrees fahrenheit, sales would be higher in June than they would be in December. Moreover, since December is on average colder than June is, the decreased ice cream sales and increased heating bill will shrink profit margins for the month of December.
 * Given that the median and maximum temperatures for both June and December are comparable and given the point above, the surf shop can stay open for June and the first half of December (assuming that the day-by-day temperature decreases in the month of December as winter approaches). This rapid decline in temperature during December is supported by the fact that the standard devitation of the temperatures in December is greater than that of June.
@@ -26,3 +30,4 @@ From the tables above, we can see that:
 
 ## Summary
 Provide a high-level summary of the results and two additional queries that you would perform to gather more weather data for June and December.
+
