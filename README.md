@@ -38,18 +38,28 @@ The following database queries would allow us to extract additional insights tha
 
 _____
 
+![stations_measurements_count](https://user-images.githubusercontent.com/80941606/193129043-ae5d9348-1fb3-404f-9662-d84aec70957f.png)
 
-**Figure 1**:
+**Figure 1**: The temperature measurements counts grouped by measurement station.
 
+The query used to create this figure was:
+```
+session.query(Measurement.station, func.count(Measurement.station)).group_by(Measurement.station).order_by(func.count(Measurement.station).desc()).all()
+```
 _____
 
 Figure 1 illustrates a query for finding the location that we have the most temperature data on. As we can see, the "USC00519281" location has the most temperature measurements.
 
 _____
 
+![station_temperature_histogram](https://user-images.githubusercontent.com/80941606/193129061-43955b7d-82bf-4e51-94e4-b4685008d9da.png)
 
-**Figure 2**:
+**Figure 2**: The temperature histogram for the station with the most measurements count.
 
+The query used to create this figure was:
+```
+results = session.query(Measurement.tobs).filter(Measurement.station == 'USC00519281').filter(Measurement.date >= prev_year).all()
+```
 _____
 
 Figure 2 illustrates a query that plots a temperature histogram for the location found in Figure 1. 
