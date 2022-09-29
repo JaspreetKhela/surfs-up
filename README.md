@@ -28,7 +28,7 @@ _____
 From the tables above, we can see that:
 * The historical minimum temperature in June is eight degrees fahrenheit greater than that of December (which has a minimum temperature of fifty-six degrees fahrenheit). Assuming that prospective patrons would only consider purchasing ice cream if the local temperature was greater than sixty degrees fahrenheit, sales would be higher in June than they would be in December. Moreover, since December is on average colder than June is, the decreased ice cream sales and increased heating bill will shrink profit margins for the month of December.
 * Given that the median and maximum temperatures for both June and December are comparable and given the point above, the surf shop can stay open for June and the first half of December (assuming that the day-by-day temperature decreases in the month of December as winter approaches). This rapid decline in temperature during December is supported by the fact that the standard devitation of the temperatures in December is greater than that of June.
-* Given that June and December are roughly six months apart yet the measures of central tendency and spread between the two months are comparable, one could make the argument that the surf shop could remain open for the entire year.
+* Given that June and December are roughly six months apart yet the measures of central tendency and spread between the two months are comparable (although, in particular, the mean temperature in June is roughly four degrees fahrenheit greater than that of December), one could make the argument that the surf shop could remain open for the entire year.
 
 ## Summary
 
