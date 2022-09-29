@@ -62,6 +62,6 @@ results = session.query(Measurement.tobs).filter(Measurement.station == 'USC0051
 ```
 _____
 
-Figure 2 illustrates a query that plots a temperature histogram for the location found in Figure 1. 
+Figure 2 illustrates a query that plots a temperature histogram for the location with the most temperature measurements found in Figure 1. 
 
 We can see that the temperature at this location lingers mostly around seventy-five degrees fahrenheit for most of the year. This temperature is ideal for selling ice cream. Thus, we can recommend opening the surf shop in this and nearby locations.
